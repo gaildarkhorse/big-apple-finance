@@ -1,0 +1,33 @@
+{
+  "name": "safu-smart-deployer",
+  "version": "1.0.0",
+  "description": "",
+  "author": "cryptoguy1119",
+  "license": "ISC",
+  "scripts": {
+    "test": "truffle test",
+    "dashboard": "truffle dashboard",
+    "ganache": "ganache-cli -m \"vessel purchase bone blush smoke salt jaguar tragic subject mercy immune dial\" -e 100000000",
+    "prettier": "npx prettier --write 'contracts/**/*.sol'",
+    "remixd": "remixd -s $(pwd) -u https://remix.ethereum.org",
+    "shopTransactions": "truffle exec ./scripts/Shop_Interaction.js --network dashboard",
+    "solmerge": "sol-merger --export-plugin SPDXLicenseRemovePlugin \"./contracts/*.sol\" ./out"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "@truffle/hdwallet-provider": "^2.0.10",
+    "assert": "^2.0.0",
+    "bignumber.js": "^9.0.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "ethereumjs-abi": "^0.6.8",
+    "prettier": "^2.6.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "truffle": "^5.5.4",
+    "truffle-assertions": "^0.9.2",
+    "truffle-plugin-verify": "^0.5.25"
+  }
+}

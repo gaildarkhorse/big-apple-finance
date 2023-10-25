@@ -1,0 +1,28 @@
+[
+    {
+        "name": "WBNB",
+        "imple": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    },
+    {
+        "name": "PancakeFactory",
+        "imple": "0xc35dadb65012ec5796536bd9864ed8773abc74c4"
+    },
+    {
+        "name": "PancakeRouter",
+        "imple": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+    },
+    {
+        "name": "Nova",
+        "imple": "0x73F940A65Cb2E7133363F0295bE114B7aa10038C",
+        "treasury": "0xa8F42e174799c955b63E91704E5DB7B50dbE2CB7",
+        "autoLiquidityReceiver": "0x7883AF0ED2BC04c36F21cc4bf96c602088083BA6",
+        "insuranceFundReceiver": "0x3311BB94571dfBEdb8454b46dc153560D0F65d68",
+        "firePit": "0x520A70BCccb3463e642e969285858314A31331E9",
+        "dev": "0x2fc8711c962e7B64e9E5A8ae364226A74Ad8c47E",
+        "pair": "0x48b3deCC59AEce8D7b1d905cc379F9a07f289743"
+    },
+    {
+        "name": "DividendDistributor",
+        "imple": "0xA97833Ad0bD1Ff978D8E41eC375e5df068606f9D"
+    }
+]
